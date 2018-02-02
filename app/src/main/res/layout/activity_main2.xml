@@ -29,6 +29,8 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textAllCaps="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -39,6 +41,8 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textAllCaps="true"
         android:layout_marginBottom="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -49,8 +53,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
         android:layout_marginLeft="150dp"
-        android:text="0"
-        android:textSize="20dp"
+        android:text="@string/init"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -61,7 +66,8 @@
         android:layout_marginEnd="150dp"
         android:layout_marginRight="150dp"
         android:text="@string/init"
-        android:textSize="20dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -180,7 +186,6 @@
         android:id="@+id/textView8"
         android:layout_width="80dp"
         android:layout_height="40dp"
-
         android:gravity="center"
         android:text="@string/red"
         android:textSize="12sp"
@@ -213,6 +218,7 @@
         android:layout_height="37dp"
         android:layout_marginTop="52dp"
         android:drawableLeft="@drawable/redcard"
+        android:drawableStart="@drawable/redcard"
         android:text="@string/init"
         app:layout_constraintStart_toStartOf="@+id/teamAName"
         app:layout_constraintTop_toBottomOf="@+id/scoreTeamA" />
@@ -222,7 +228,8 @@
         android:layout_width="wrap_content"
         android:layout_height="37dp"
         android:drawableLeft="@drawable/yellowcard"
-        android:gravity="right"
+        android:drawableStart="@drawable/yellowcard"
+        android:gravity="end"
         android:text="@string/init"
         app:layout_constraintStart_toStartOf="@+id/redA"
         app:layout_constraintTop_toBottomOf="@+id/redA" />
@@ -242,6 +249,7 @@
         android:layout_height="37dp"
         android:layout_marginTop="52dp"
         android:drawableLeft="@drawable/redcard"
+        android:drawableStart="@drawable/redcard"
         android:text="@string/init"
         app:layout_constraintEnd_toEndOf="@+id/teamBName"
         app:layout_constraintTop_toBottomOf="@+id/scoreTeamB" />
@@ -251,6 +259,7 @@
         android:layout_width="wrap_content"
         android:layout_height="37dp"
         android:drawableLeft="@drawable/yellowcard"
+        android:drawableStart="@drawable/yellowcard"
         android:text="@string/init"
         app:layout_constraintEnd_toEndOf="@+id/redB"
         app:layout_constraintTop_toBottomOf="@+id/redB" />
@@ -260,6 +269,7 @@
         android:layout_width="wrap_content"
         android:layout_height="37dp"
         android:drawableLeft="@drawable/corner"
+        android:drawableStart="@drawable/corner"
         android:text="@string/init"
         app:layout_constraintEnd_toEndOf="@+id/yellowB"
         app:layout_constraintTop_toBottomOf="@+id/yellowB" />
