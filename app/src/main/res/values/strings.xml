@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ScoreCounter</string>
+    <string name="intro1">Welcome to the Score Count app.</string>
+    <string name="intro2">Please enter the team names below.</string>
+    <string name="hint1">Home Team Name</string>
+    <string name="hint2">Away Team Name</string>
+    <string name="submit">Submit</string>
+    <string name="goal">Goal!</string>
+    <string name="yellow">Yellow Card</string>
+    <string name="red">Red Card</string>
+    <string name="corner">Corner</string>
+    <string name="reset">Reset</string>
+    <string name="init">0</string>
+    <string name="plus">+</string>
+</resources>
+
